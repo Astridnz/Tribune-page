@@ -1,0 +1,62 @@
+
+*{
+  font-family: "Roboto", sans-serif; ;  
+  background-color: #eeeeee; 
+}
+
+header{
+  padding: 30px;
+  text-align: center;
+}
+
+.mainTitle {
+  font-size: x-large;
+  font-style: normal;
+}
+
+.quoteTitle{
+  font-size: medium;
+  font-style: normal;
+}
+
+.Photo{
+ background-color: white;
+ text-align: center;
+}
+
+
+figcaption{
+  font-size: small;
+  font-style: normal;
+  background-color: white;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+main{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Biography{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: small;
+  line-height: 2em;
+}
+
+.quote{
+  font-style: italic;
+  text-align: center;
+  line-height: 1em;
+}
+
+footer{
+  text-align: center;
+}
+
